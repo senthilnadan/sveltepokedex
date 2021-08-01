@@ -10,8 +10,12 @@
 
 <h1 class="text-4xl text-center my-8 uppercase"> Pokedex This is a Pokedex App BY SRIRAM</h1>
 
+<div class="py-4 grid gap-4 md:grid-cols-2 grid- cols-1">
+
 {#each $pokemon as pokeman}
     <PokemanCard pokeman={pokeman}></PokemanCard>
    
-{/each}
+{/each} 
+
+</div>
 
